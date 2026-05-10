@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rounded square background: gradient from #001F3F (dark navy) to #0288D1 (light blue) -->
+    <!-- Using a solid color approximation for vector drawable (gradients need API 24+) -->
+    <path
+        android:pathData="M12,0 L96,0 Q108,0 108,12 L108,96 Q108,108 96,108 L12,108 Q0,108 0,96 L0,12 Q0,0 12,0 Z"
+        android:fillColor="#001F3F" />
+
+    <!-- Gradient overlay for background (top-left lighter, bottom-right darker blue) -->
+    <path
+        android:pathData="M12,0 L96,0 Q108,0 108,12 L108,96 Q108,108 96,108 L12,108 Q0,108 0,96 L0,12 Q0,0 12,0 Z"
+        android:fillColor="#0288D1"
+        android:fillAlpha="0.55" />
+
+    <!-- Chat bubble shape (large, behind everything) in #0D47A1 -->
+    <path
+        android:pathData="M18,20 Q18,14 24,14 L84,14 Q90,14 90,20 L90,68 Q90,74 84,74 L38,74 L28,85 L28,74 L24,74 Q18,74 18,68 Z"
+        android:fillColor="#0D47A1"
+        android:fillAlpha="0.85" />
+
+    <!-- Drop shadow behind document (black, 20% opacity) -->
+    <path
+        android:pathData="M32,35 Q32,30 37,30 L73,30 Q78,30 78,35 L78,78 Q78,83 73,83 L37,83 Q32,83 32,78 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.20" />
+
+    <!-- Document/paper icon (white, rounded corners) in center -->
+    <path
+        android:pathData="M30,32 Q30,27 35,27 L72,27 Q77,27 77,32 L77,79 Q77,84 72,84 L35,84 Q30,84 30,79 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Document line 1: color #1565C0, width ~60dp relative, height 4dp -->
+    <path
+        android:pathData="M35,42 Q35,40 37,40 L73,40 Q75,40 75,42 L75,46 Q75,48 73,48 L37,48 Q35,48 35,46 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Document line 2: color #1565C0, width ~48dp relative -->
+    <path
+        android:pathData="M35,53 Q35,51 37,51 L66,51 Q68,51 68,53 L68,57 Q68,59 66,59 L37,59 Q35,59 35,57 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Document line 3: color #1565C0, width ~36dp relative -->
+    <path
+        android:pathData="M35,64 Q35,62 37,62 L59,62 Q61,62 61,64 L61,68 Q61,70 59,70 L37,70 Q35,70 35,68 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Graduation cap icon top-right: #29B6F6 colored -->
+    <!-- Cap board (mortarboard top) -->
+    <path
+        android:pathData="M72,16 L92,23 L72,30 L52,23 Z"
+        android:fillColor="#29B6F6" />
+    <!-- Cap base (cylindrical part) -->
+    <path
+        android:pathData="M79,25 L79,35 Q79,38 72,38 Q65,38 65,35 L65,25 Z"
+        android:fillColor="#29B6F6"
+        android:fillAlpha="0.80" />
+    <!-- Cap tassel string -->
+    <path
+        android:pathData="M92,23 L92,31"
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <!-- Cap tassel ball -->
+    <path
+        android:pathData="M90,31 A2,2 0 1,0 94,31 A2,2 0 1,0 90,31 Z"
+        android:fillColor="#29B6F6" />
+
+    <!-- Notification bell badge bottom-right -->
+    <!-- Circle background: #0288D1 -->
+    <path
+        android:pathData="M78,74 A14,14 0 1,0 78,74.001 Z"
+        android:fillColor="#0288D1" />
+    <!-- Use a proper circle -->
+    <path
+        android:pathData="M78,60 m-14,14 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0"
+        android:fillColor="#0288D1" />
+
+    <!-- Bell icon: white (simplified bell shape) -->
+    <path
+        android:pathData="M78,63 Q73,63 71,68 L70,73 L86,73 L85,68 Q83,63 78,63 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Bell bottom/base -->
+    <path
+        android:pathData="M74,73 Q74,76 78,76 Q82,76 82,73 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Bell clapper notch -->
+    <path
+        android:pathData="M76,62 Q76,60 78,60 Q80,60 80,62"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Small signal waves: #29B6F6 -->
+    <path
+        android:pathData="M87,66 Q90,68 90,71"
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M89,63 Q94,67 94,73"
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+</vector>

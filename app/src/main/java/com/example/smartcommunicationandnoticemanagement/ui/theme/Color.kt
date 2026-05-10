@@ -1,0 +1,27 @@
+package com.example.smartcommunicationandnoticemanagement.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val SkyBlue = Color(0xFF0078D4)
+val SkyBlueDark = Color(0xFF005FA3)
+val SkyBlueLight = Color(0xFFE1F0FF)
+val SkyBlueAccent = Color(0xFF00B4FF)
+val AppWhite = Color(0xFFFFFFFF)
+val AppBackground = Color(0xFFF5F7FA)
+val TextDark = Color(0xFF1A1A2E)
+val TextGray = Color(0xFF6B7280)
+val CardBorder = Color(0xFFE5E7EB)
+val ErrorRed = Color(0xFFD32F2F)
+val SuccessGreen = Color(0xFF2E7D32)
+val TypeCT = Color(0xFF1D4ED8)
+val TypeCTBg = Color(0xFFDBEAFE)
+val TypeMid = Color(0xFF92400E)
+val TypeMidBg = Color(0xFFFEF3C7)
+val TypeFinal = Color(0xFF991B1B)
+val TypeFinalBg = Color(0xFFFEE2E2)
+val TypeEvent = Color(0xFF065F46)
+val TypeEventBg = Color(0xFFD1FAE5)
+val TypeEmergency = Color(0xFF991B1B)
+val TypeEmergencyBg = Color(0xFFFEE2E2)
+val TypeVacation = Color(0xFF134E4A)
+val TypeVacationBg = Color(0xFFCCFBF1)

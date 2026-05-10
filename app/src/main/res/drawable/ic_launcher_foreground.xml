@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Chat bubble shape (large, behind everything) in #0D47A1 -->
+    <path
+        android:pathData="M18,20 Q18,14 24,14 L84,14 Q90,14 90,20 L90,68 Q90,74 84,74 L38,74 L28,85 L28,74 L24,74 Q18,74 18,68 Z"
+        android:fillColor="#0D47A1"
+        android:fillAlpha="0.85" />
+
+    <!-- Drop shadow behind document (black, 20% opacity) -->
+    <path
+        android:pathData="M32,35 Q32,30 37,30 L73,30 Q78,30 78,35 L78,78 Q78,83 73,83 L37,83 Q32,83 32,78 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.20" />
+
+    <!-- Document/paper icon (white, rounded corners) -->
+    <path
+        android:pathData="M30,32 Q30,27 35,27 L72,27 Q77,27 77,32 L77,79 Q77,84 72,84 L35,84 Q30,84 30,79 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Document line 1: #1565C0, full width -->
+    <path
+        android:pathData="M35,42 Q35,40 37,40 L73,40 Q75,40 75,42 L75,46 Q75,48 73,48 L37,48 Q35,48 35,46 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Document line 2: #1565C0, medium width -->
+    <path
+        android:pathData="M35,53 Q35,51 37,51 L66,51 Q68,51 68,53 L68,57 Q68,59 66,59 L37,59 Q35,59 35,57 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Document line 3: #1565C0, short width -->
+    <path
+        android:pathData="M35,64 Q35,62 37,62 L59,62 Q61,62 61,64 L61,68 Q61,70 59,70 L37,70 Q35,70 35,68 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Graduation cap board (mortarboard) -->
+    <path
+        android:pathData="M72,16 L92,23 L72,30 L52,23 Z"
+        android:fillColor="#29B6F6" />
+    <!-- Cap body -->
+    <path
+        android:pathData="M79,25 L79,35 Q79,38 72,38 Q65,38 65,35 L65,25 Z"
+        android:fillColor="#29B6F6"
+        android:fillAlpha="0.80" />
+    <!-- Cap tassel string -->
+    <path
+        android:pathData="M92,23 L92,31"
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <!-- Cap tassel ball -->
+    <path
+        android:pathData="M90,31 A2,2 0 1,0 94,31 A2,2 0 1,0 90,31 Z"
+        android:fillColor="#29B6F6" />
+
+    <!-- Bell badge: circle background #0288D1 -->
+    <path
+        android:pathData="M78,60 m-14,14 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0"
+        android:fillColor="#0288D1" />
+
+    <!-- Bell shape: white -->
+    <path
+        android:pathData="M78,63 Q73,63 71,68 L70,73 L86,73 L85,68 Q83,63 78,63 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Bell base -->
+    <path
+        android:pathData="M74,73 Q74,76 78,76 Q82,76 82,73 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Bell handle top -->
+    <path
+        android:pathData="M76,62 Q76,60 78,60 Q80,60 80,62"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Signal waves: #29B6F6 -->
+    <path
+        android:pathData="M87,66 Q90,68 90,71"
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M89,63 Q94,67 94,73"
+        android:strokeColor="#29B6F6"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+</vector>

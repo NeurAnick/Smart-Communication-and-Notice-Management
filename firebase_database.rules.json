@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "chats": {
+      "$semester": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}

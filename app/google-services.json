@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "628222007342",
+    "firebase_url": "https://noticeapp-fc6f0-default-rtdb.firebaseio.com",
+    "project_id": "noticeapp-fc6f0",
+    "storage_bucket": "noticeapp-fc6f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628222007342:android:fd0d88a9c043bf1e14e7bf",
+        "android_client_info": {
+          "package_name": "com.example.smartcommunicationandnoticemanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSyaaNLBY-BxIEBpmLSodK8x0CLwSGv8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

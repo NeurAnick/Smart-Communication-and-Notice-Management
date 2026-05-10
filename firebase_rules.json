@@ -1,0 +1,38 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        // Owner can read/write. Admins can read all.
+        ".read": "auth != null && (auth.uid === $uid || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+    "notices": {
+      // Authenticated users can read. Only admins can write.
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+    },
+    "chats": {
+      // Authenticated users can read and write.
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "routines": {
+      // Authenticated users can read. Only admins can write.
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+    },
+    "saved": {
+      "$uid": {
+        // Read/write by owner only
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+    "faqs": {
+      // Authenticated users can read. Only admins can write.
+      ".read": "auth != null",
+      ".write": "auth != null && root.child('users').child(auth.uid).child('role').val() === 'admin'"
+    }
+  }
+}
